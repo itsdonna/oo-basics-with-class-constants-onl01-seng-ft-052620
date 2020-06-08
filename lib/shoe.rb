@@ -10,9 +10,9 @@ class Shoe
     end
   end
 
-  def unique 
-    @brands.collect do |brand|
-      @brands << brand.uniq?
+  def unique
+    self.condition = "new"
+    puts "Your shoe is as good as new!"
   end
 
 end
